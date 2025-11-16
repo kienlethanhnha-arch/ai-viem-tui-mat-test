@@ -18,7 +18,7 @@ def load_model():
 try:
     model = load_model()
 except:
-    st.error("⚠️ Không tìm thấy file mô hình. Hãy đảm bảo bạn đã upload file .pkl cùng thư mục!")
+    st.error("⚠️ Không tìm thấy file mô hình")
     st.stop()
 
 # 3. GIAO DIỆN NHẬP LIỆU
